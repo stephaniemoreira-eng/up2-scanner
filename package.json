@@ -1,0 +1,13 @@
+{
+  "name": "up2-scanner",
+  "version": "1.0.0",
+  "description": "Scanner Puppeteer para diagnóstico de presença digital de leads UP2",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer": "^21.5.2"
+  }
+}
