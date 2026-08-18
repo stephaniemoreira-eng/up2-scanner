@@ -6,7 +6,7 @@ COPY package*.json ./
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
-RUN npm ci --omit=dev
+RUN npm install --omit=dev
 
 COPY . .
 
